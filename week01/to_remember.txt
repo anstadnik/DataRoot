@@ -1,4 +1,0 @@
-xrange
-type()
-w = (i for i in range(1, 11))
-w = [i for i in range(1, 11)]
