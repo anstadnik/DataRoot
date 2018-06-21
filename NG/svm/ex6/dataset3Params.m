@@ -26,16 +26,16 @@ sigma = 0.3;
 
 vals = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30];
 
-rez = 10 ^ 10;
+rez = -1;
 
-for c = length(vals)
-	for Sigma = length(vals)
+for c = 1:length(vals)
+	for Sigma = 1:length(vals)
 		pred = svmPredict(svmTrain(X, y, vals(c), @(x1, x2) gaussianKernel(x1, x2, vals(Sigma))), Xval);
-		if sum(pred == yval) < rez
+		if mean(double(pred ~= yval)) < rez || rez == -1
 			% sum(pred == yval)
 			C = vals(c);
 			sigma = vals(Sigma);
-			rez = sum(pred == yval);
+			rez = mean(double(pred ~= yval));
 		end
 	end
 end

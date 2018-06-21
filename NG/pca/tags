@@ -1,0 +1,92 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+D_	ex7/lib/jsonlab/saveubjson.m	/^function val=D_(num)$/;"	f
+D_a	ex7/lib/jsonlab/saveubjson.m	/^function data=D_a(num,type,dim,format)$/;"	f
+I_	ex7/lib/jsonlab/saveubjson.m	/^function val=I_(num)$/;"	f
+I_a	ex7/lib/jsonlab/saveubjson.m	/^function data=I_a(num,type,dim,format)$/;"	f
+S_	ex7/lib/jsonlab/saveubjson.m	/^function val=S_(str)$/;"	f
+cell2json	ex7/lib/jsonlab/savejson.m	/^function txt=cell2json(name,item,level,varargin)$/;"	f
+cell2ubjson	ex7/lib/jsonlab/saveubjson.m	/^function txt=cell2ubjson(name,item,level,varargin)$/;"	f
+checkname	ex7/lib/jsonlab/savejson.m	/^function newname=checkname(name,varargin)$/;"	f
+checkname	ex7/lib/jsonlab/saveubjson.m	/^function newname=checkname(name,varargin)$/;"	f
+computeCentroids	ex7/computeCentroids.m	/^function centroids = computeCentroids(X, idx, K)$/;"	f
+data2byte	ex7/lib/jsonlab/saveubjson.m	/^function bytes=data2byte(varargin)$/;"	f
+displayData	ex7/displayData.m	/^function [h, display_array] = displayData(X, example_width)$/;"	f
+drawLine	ex7/drawLine.m	/^function drawLine(p1, p2, varargin)$/;"	f
+elem_info	ex7/lib/jsonlab/loadubjson.m	/^function [cid,len]=elem_info(type)$/;"	f
+error_pos	ex7/lib/jsonlab/loadjson.m	/^function error_pos(msg)$/;"	f
+error_pos	ex7/lib/jsonlab/loadubjson.m	/^function error_pos(msg)$/;"	f
+escapejsonstring	ex7/lib/jsonlab/savejson.m	/^function newstr=escapejsonstring(str)$/;"	f
+featureNormalize	ex7/featureNormalize.m	/^function [X_norm, mu, sigma] = featureNormalize(X)$/;"	f
+findClosestCentroids	ex7/findClosestCentroids.m	/^function idx = findClosestCentroids(X, centroids)$/;"	f
+getResponse	ex7/lib/submitWithConfiguration.m	/^function response = getResponse(url, body)$/;"	f
+isValidPartOptionIndex	ex7/lib/submitWithConfiguration.m	/^function isValid = isValidPartOptionIndex(partOptions, i)$/;"	f
+jcell2array	ex7/lib/jsonlab/loadjson.m	/^function newdata=jcell2array(data)$/;"	f
+jcell2array	ex7/lib/jsonlab/loadubjson.m	/^function newdata=jcell2array(data)$/;"	f
+jsonopt	ex7/lib/jsonlab/jsonopt.m	/^function val=jsonopt(key,default,varargin)$/;"	f
+jstruct2array	ex7/lib/jsonlab/loadjson.m	/^function newdata=jstruct2array(data)$/;"	f
+jstruct2array	ex7/lib/jsonlab/loadubjson.m	/^function newdata=jstruct2array(data)$/;"	f
+kMeansInitCentroids	ex7/kMeansInitCentroids.m	/^function centroids = kMeansInitCentroids(X, K)$/;"	f
+loadjson	ex7/lib/jsonlab/loadjson.m	/^function data = loadjson(fname,varargin)$/;"	f
+loadubjson	ex7/lib/jsonlab/loadubjson.m	/^function data = loadubjson(fname,varargin)$/;"	f
+makePartsStruct	ex7/lib/submitWithConfiguration.m	/^function partsStruct = makePartsStruct(conf, parts)$/;"	f
+makePostBody	ex7/lib/submitWithConfiguration.m	/^function body = makePostBody(conf, email, token, parts)$/;"	f
+makeValidFieldName	ex7/lib/makeValidFieldName.m	/^function str = makeValidFieldName(str)$/;"	f
+mat2json	ex7/lib/jsonlab/savejson.m	/^function txt=mat2json(name,item,level,varargin)$/;"	f
+mat2ubjson	ex7/lib/jsonlab/saveubjson.m	/^function txt=mat2ubjson(name,item,level,varargin)$/;"	f
+matching_bracket	ex7/lib/jsonlab/loadjson.m	/^function [endpos, e1l, e1r, maxlevel] = matching_bracket(str,pos)$/;"	f
+matching_bracket	ex7/lib/jsonlab/loadubjson.m	/^function [endpos e1l e1r maxlevel] = matching_bracket(str,pos)$/;"	f
+matching_quote	ex7/lib/jsonlab/loadjson.m	/^function endpos = matching_quote(str,pos)$/;"	f
+matching_quote	ex7/lib/jsonlab/loadubjson.m	/^function endpos = matching_quote(str,pos)$/;"	f
+matdata2json	ex7/lib/jsonlab/savejson.m	/^function txt=matdata2json(mat,level,varargin)$/;"	f
+matdata2ubjson	ex7/lib/jsonlab/saveubjson.m	/^function txt=matdata2ubjson(mat,level,varargin)$/;"	f
+mergestruct	ex7/lib/jsonlab/mergestruct.m	/^function s=mergestruct(s1,s2)$/;"	f
+next_char	ex7/lib/jsonlab/loadjson.m	/^function c = next_char$/;"	f
+next_char	ex7/lib/jsonlab/loadubjson.m	/^function c = next_char$/;"	f
+obj2json	ex7/lib/jsonlab/savejson.m	/^function txt=obj2json(name,item,level,varargin)$/;"	f
+obj2ubjson	ex7/lib/jsonlab/saveubjson.m	/^function txt=obj2ubjson(name,item,level,varargin)$/;"	f
+output	ex7/submit.m	/^function out = output(partId, auxstring)$/;"	f
+parseStr	ex7/lib/jsonlab/loadjson.m	/^function str = parseStr(varargin)$/;"	f
+parseStr	ex7/lib/jsonlab/loadubjson.m	/^function str = parseStr(varargin)$/;"	f
+parse_array	ex7/lib/jsonlab/loadjson.m	/^function object = parse_array(varargin) % JSON array is written in row-major order$/;"	f
+parse_array	ex7/lib/jsonlab/loadubjson.m	/^function object = parse_array(varargin) % JSON array is written in row-major order$/;"	f
+parse_block	ex7/lib/jsonlab/loadubjson.m	/^function [data adv]=parse_block(type,count,varargin)$/;"	f
+parse_char	ex7/lib/jsonlab/loadjson.m	/^function parse_char(c)$/;"	f
+parse_char	ex7/lib/jsonlab/loadubjson.m	/^function parse_char(c)$/;"	f
+parse_collection	ex7/lib/jsonlab/loadubjson.m	/^function newdata=parse_collection(id,data,obj)$/;"	f
+parse_number	ex7/lib/jsonlab/loadjson.m	/^function num = parse_number(varargin)$/;"	f
+parse_number	ex7/lib/jsonlab/loadubjson.m	/^function num = parse_number(varargin)$/;"	f
+parse_object	ex7/lib/jsonlab/loadjson.m	/^function object = parse_object(varargin)$/;"	f
+parse_object	ex7/lib/jsonlab/loadubjson.m	/^function object = parse_object(varargin)$/;"	f
+parse_value	ex7/lib/jsonlab/loadjson.m	/^function val = parse_value(varargin)$/;"	f
+parse_value	ex7/lib/jsonlab/loadubjson.m	/^function val = parse_value(varargin)$/;"	f
+parts	ex7/lib/submitWithConfiguration.m	/^function [parts] = parts(conf)$/;"	f
+pca	ex7/pca.m	/^function [U, S] = pca(X)$/;"	f
+plotDataPoints	ex7/plotDataPoints.m	/^function plotDataPoints(X, idx, K)$/;"	f
+plotProgresskMeans	ex7/plotProgresskMeans.m	/^function plotProgresskMeans(X, centroids, previous, idx, K, i)$/;"	f
+printHTMLContents	ex7/lib/submitWithConfiguration.m	/^function printHTMLContents(response)$/;"	f
+projectData	ex7/projectData.m	/^function Z = projectData(X, U, K)$/;"	f
+promptToken	ex7/lib/submitWithConfiguration.m	/^function [email token] = promptToken(email, existingToken, tokenFile)$/;"	f
+recoverData	ex7/recoverData.m	/^function X_rec = recoverData(Z, U, K)$/;"	f
+runkMeans	ex7/runkMeans.m	/^function [centroids, idx] = runkMeans(X, initial_centroids, ...$/;"	f
+savejson	ex7/lib/jsonlab/savejson.m	/^function json=savejson(rootname,obj,varargin)$/;"	f
+saveubjson	ex7/lib/jsonlab/saveubjson.m	/^function json=saveubjson(rootname,obj,varargin)$/;"	f
+showFeedback	ex7/lib/submitWithConfiguration.m	/^function showFeedback(parts, response)$/;"	f
+skip_whitespace	ex7/lib/jsonlab/loadjson.m	/^function skip_whitespace$/;"	f
+skip_whitespace	ex7/lib/jsonlab/loadubjson.m	/^function skip_whitespace$/;"	f
+str2json	ex7/lib/jsonlab/savejson.m	/^function txt=str2json(name,item,level,varargin)$/;"	f
+str2ubjson	ex7/lib/jsonlab/saveubjson.m	/^function txt=str2ubjson(name,item,level,varargin)$/;"	f
+struct2json	ex7/lib/jsonlab/savejson.m	/^function txt=struct2json(name,item,level,varargin)$/;"	f
+struct2ubjson	ex7/lib/jsonlab/saveubjson.m	/^function txt=struct2ubjson(name,item,level,varargin)$/;"	f
+submissionUrl	ex7/lib/submitWithConfiguration.m	/^function submissionUrl = submissionUrl()$/;"	f
+submit	ex7/submit.m	/^function submit()$/;"	f
+submitParts	ex7/lib/submitWithConfiguration.m	/^function response = submitParts(conf, email, token, parts)$/;"	f
+submitWithConfiguration	ex7/lib/submitWithConfiguration.m	/^function submitWithConfiguration(conf)$/;"	f
+valid_field	ex7/lib/jsonlab/loadjson.m	/^function str = valid_field(str)$/;"	f
+valid_field	ex7/lib/jsonlab/loadubjson.m	/^function str = valid_field(str)$/;"	f
+validateResponse	ex7/lib/submitWithConfiguration.m	/^function response = validateResponse(resp)$/;"	f
+varargin2struct	ex7/lib/jsonlab/varargin2struct.m	/^function opt=varargin2struct(varargin)$/;"	f
